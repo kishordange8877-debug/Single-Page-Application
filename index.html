@@ -1,0 +1,411 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dange Chat House</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                DANGE <span>CHAT HOUSE</span>
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li><a href="#">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#menu">Menu</a></li>
+
+                <!-- <li><a href="#gallery">Gallery</a></li> -->
+
+                <li><a href="#reviews">Reviews</a></li>
+
+                 <li><a href="#feedback">feedback</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+               
+                
+
+            </ul>
+<!--  
+            <a href="#" class="btn">
+                Order Now
+            </a> -->
+
+
+
+              <div class="menu-icon" onclick="toggleMenu()">
+    ☰
+  </div>
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content"  id="heroContent">
+            
+            <h4>Welcome To</h4>
+
+            <h1>
+                DANGE <br>
+                <span>CHAT HOUSE</span>
+            </h1>
+
+            <h3 class="marathi-tagline">
+                पुण्याची खास चव, आता हैदराबादमध्ये!
+            </h3>
+
+            <p>
+                Taste the Best Panipuri, Bhel, Dabeli, Shevpuri &
+                More with Fresh Ingredients and Amazing Flavours.
+            </p>
+
+            <div class="hero-btns">
+
+                <a href="#menu" class="btn">
+                    Explore Menu
+                </a>
+
+                <a href="#contact" class="btn2">
+                    Contact Us
+                </a>
+
+            </div>
+
+        </div>
+        
+
+    <button class="prev" onclick="prevSlide()">❮</button>
+
+    <button class="next" onclick="nextSlide()">❯</button>
+
+
+    </section>
+    
+   
+    <!-- ================= ABOUT SECTION ================= -->
+
+<section class="about" id="about">
+
+    <div class="about-container">
+
+        <!-- Left Image -->
+
+        <div class="about-image">
+
+            <img src="images/about2.png" alt="Dange Chat House">
+
+        </div>
+
+        <!-- Right Content -->
+
+        <div class="about-content">
+
+            <h4 class="about-subtitle">
+                About Us
+            </h4>
+<!-- 
+            <h2 class="about-title">
+                DANGE CHAT HOUSE
+            </h2> -->
+
+            <!-- <div class="about-line"></div> -->
+
+            < <p class="about-text">
+                पुण्याची अस्सल चव आता हैदराबादमध्ये!<br>
+                Dange Chat House मध्ये आम्ही ताजे साहित्य,
+                स्वच्छता आणि पारंपरिक पुणेरी चवीसह
+                पाणीपुरी, भेळ, शेवपुरी, दाबेली आणि
+                अनेक चाट प्रकार प्रेमाने तयार करतो.
+
+            </p> 
+
+            <div class="about-boxes">
+
+                <div class="box">
+
+                    <i class="fa-solid fa-leaf"></i>
+
+                    <h3>Fresh Ingredients</h3>
+
+                    <!-- <p>Fresh & Premium Quality</p> -->
+
+                </div>
+
+                <div class="box">
+
+                    <i class="fa-solid fa-shield-heart"></i>
+
+                    <h3>Hygienic Food</h3>
+
+                    <!-- <p>100% Clean Preparation</p> -->
+
+                </div>
+
+                <div class="box">
+
+                    <i class="fa-solid fa-heart"></i>
+
+                    <h3>Made With Love</h3>
+<!-- 
+                    <p>Authentic Pune Taste</p> -->
+
+                </div>
+
+            </div>
+
+            <a href="#menu" class="about-btn">
+
+                Explore Menu
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="menu" id="menu">
+
+  <h2>Our Special Menu</h2>
+  <p class="subtitle">Puneri Special Chat</p>
+
+  <div class="menu-container">
+
+    <div class="menu-card">
+      <img src="images/panipuri.jfif" alt="Pani Puri">
+      
+      <h3 class="item-name">Pani Puri</h3>
+      <p>Spicy & crispy street favorite</p>
+      <span>₹30</span>
+    </div>
+
+    <div class="menu-card">
+      <img src="images/bhel.jfif" alt="bhel">
+      <h3 class="item-name">Bhel</h3>
+       <p>Light, crunchy & tangy  <br> mix</p>
+      <span>₹40</span>
+    </div>
+
+    <div class="menu-card">
+      <img src="images/dadeli.webp" alt="Dabeli">
+      <h3 class="item-name">Dabeli</h3>
+      <p>Spicy mashed potato pav snack</p>
+      <span>₹25</span>
+    </div>
+
+    <div class="menu-card">
+      <img src="images/dahipuri.webp" alt="Dahi Puri">
+      <h3 class="item-name">Dahi Puri</h3>
+      <p>Crunchy sev with tangy chutneys</p>
+      <span>₹35</span>
+    </div>
+
+    
+    <div class="menu-card">
+      <img src="images/ragada.jfif" alt="Ragada">
+      <h3 class="item-name">Ragada</h3>
+      <p>Crunchy sev with tangy chutneys</p>
+      <span>₹35</span>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+<section class="reviews-section" id="reviews">
+
+  <h2>Customer Reviews</h2>
+
+  <div class="reviews-row">
+
+    <div class="review-card">
+    <img src="images/kd.jfif" alt="Customer">
+    <h4 style="color:black;font-size: 12px;">Kishor Dange</h4>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>Best taste 🔥</p>
+    </div>
+
+    <div class="review-card">
+      <img src="images/ap.jfif" alt="Customer">
+        <h4 style="color:black;font-size: 12px;">Amol patil</h4>
+      <div class="stars">⭐⭐⭐⭐</div>
+      <p>Nice service 👍</p>
+    </div>
+
+    <div class="review-card">
+      <img src="images/pp.jfif" alt="Customer">
+        <h4 style="color:black;font-size: 12px;">Pappu patil</h4>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>Super tasty 😍</p>
+    </div>
+
+    <div class="review-card">
+      <img src="images/arsh.jfif" alt="Customer">
+        <h4 style="color:black;font-size: 12px;">Arshit patil</h4>
+      <div class="stars">⭐⭐⭐⭐</div>
+      <p>Good quality</p>
+    </div>
+
+    <div class="review-card">
+      <img src="images/rp.jfif" alt="Customer">
+        <h4 style="color:black;font-size: 12px;">Ravi patil</h4>
+      <div class="stars">⭐⭐⭐⭐⭐</div>
+      <p>Must visit ❤️</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- Feedback Section -->
+<section class="feedback" id="feedback">
+    <div class="feedback-container">
+        <form id="feedbackForm" class="feedback-form">    
+        <h2>Customer Feedback</h2>
+
+            <!-- Name -->
+            <div class="input-box">
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter Your Name"
+                    required>
+            </div>
+
+            <!-- Feedback -->
+            <div class="input-box">
+                <textarea
+                    id="feedbackText"
+                    rows="6"
+                    placeholder="Write Your Feedback..."
+                    required></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="feedback-btn">
+                Submit Feedback
+            </button>
+
+        </form>
+         <p id="feedbackMessage"></p>
+
+    </div>
+
+</section>
+
+       
+            
+<footer class="footer" id="contact">
+
+    <div class="footer-container">
+
+        <!-- Logo -->
+        <div class="footer-box">
+            <h2>DANGE <span>CHAT HOUSE</span></h2>
+            <p class="tagline">
+                Taste That Brings Happiness In Every Bite.
+            </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-box">
+            <h3>Contact Us</h3>
+
+            <p>📍 Hyderabad, Telangana</p>
+            <p>📞 +91 98765 43210</p>
+            <p>✉️ dangechathouse@gmail.com</p>
+        </div>
+
+        <!-- Opening Hours -->
+        <div class="footer-box">
+            <h3>Opening Hours</h3>
+
+            <p>Monday - Sunday</p>
+            <p>11:00 AM - 11:00 PM</p>
+        </div>
+
+        <!-- Social -->
+        <div class="footer-box">
+            <h3>Follow Us</h3>
+
+            <div class="social-icons">
+
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-youtube"></i></a>
+
+                <a href="#"><i class="fab fa-google"></i></a>
+
+            </div>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 Dange Chat House | All Rights Reserved.
+    </p>
+
+<!-- </footer>
+      <script>
+
+  
+
+      </script>    -->
+                
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
