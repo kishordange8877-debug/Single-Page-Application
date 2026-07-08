@@ -106,9 +106,9 @@ function updateHero() {
         heroTitle.style.color = "#FFD700";
         heroTagline.style.color = "#ffffff";
         heroDescription.style.color = "#f5f5f5";
-            heroWelcome.style.marginTop = "130px";
-    heroTitle.style.marginTop = "120px";
-    heroBtn1.style.marginTop = "0";
+    //         heroWelcome.style.marginTop = "130px";
+    // heroTitle.style.marginTop = "120px";
+    // heroBtn1.style.marginTop = "0";
 
     }
 
