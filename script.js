@@ -47,7 +47,7 @@ const slides = [
 
         title: `DANGE <br><span>CHAT HOUSE</span>`,
 
-        tagline: "पुण्याची खास चव, आता हैदराबादमध्ये!",
+        tagline: "The Authentic Taste of Pune, Now in Hyderabad!",
 
         description: "Taste the Best Panipuri, Bhel, Dabeli, Shevpuri & More with Fresh Ingredients and Amazing Flavours.",
 
@@ -56,34 +56,22 @@ const slides = [
     },
 
     {
-        image: "./images/both1.jfif",
+        image: "./images/shanichar.jfif",
 
-        welcome: "Welcome To",
+        welcome: " ",
 
         title: `PUNERI <br><span>SPECIAL TASTE</span>`,
 
-        tagline: "शनिवारवाड्याच्या चवीचा वारसा, चारमिनारच्या शहरात.",
+    tagline: "",
 
-        description: "आमच्या खास पदार्थांसाठी लागणारे ताजे आणि दर्जेदार साहित्य आम्ही थेट पुण्यातून आणतो.",
+        description: "We bring fresh and high-quality ingredients directly from Pune for our special dishes",
 
         btn1: "View Menu",
         btn2: "Order Now"
     },
 
-    {
-        image: "./images/slide1.png",
-
-        welcome: "Fresh & Delicious",
-
-        title: `STREET <br><span>FOOD</span>`,
-
-        tagline: "प्रत्येक घासात आनंद!",
-
-        description: "Enjoy Delicious Panipuri, Dabeli, Shevpuri, Ragada & More.",
-
-        btn1: "Explore",
-        btn2: "Contact"
-    }
+   
+    
 
 ];
 
@@ -118,6 +106,9 @@ function updateHero() {
         heroTitle.style.color = "#FFD700";
         heroTagline.style.color = "#ffffff";
         heroDescription.style.color = "#f5f5f5";
+            heroWelcome.style.marginTop = "130px";
+    heroTitle.style.marginTop = "120px";
+    heroBtn1.style.marginTop = "0";
 
     }
 
@@ -126,9 +117,17 @@ function updateHero() {
         heroTitle.style.color = "#ff5722";
         heroTagline.style.color = "#ffffff";
         heroDescription.style.color = "#ffffff";
+         heroWelcome.style.marginTop = "180px";
+    heroTitle.style.marginTop = "180px";
+    heroBtn1.style.marginTop = "180px";
 
     }
 
+}
+if (current === 1) {
+    heroContent.classList.add("second-slide");
+} else {
+    heroContent.classList.remove("second-slide");
 }
 
 function nextSlide() {
@@ -158,10 +157,4 @@ function toggleMenu() {
     alert("Working");
 }
 
-function toggleMenu() {
-    const nav = document.getElementById("navLinks");
 
-    nav.classList.toggle("active");
-
-    console.log(nav.className);
-}

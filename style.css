@@ -837,3 +837,11 @@ hr{
     }
 
 }
+
+.second-slide{
+    margin-top: 120px;
+}
+
+#welcome:empty {
+    display: none;
+}
